@@ -1,103 +1,102 @@
-# Alma-public
-Public overview of Alma:: system architecture, concept and development direction.
-# ALMA
+# Alma — Physiological Co-Regulation System
 
-**A passive wearable system for early stress detection and real-time haptic co-regulation.**
+Alma is a screenless wearable system designed to detect early physiological signs of stress and deliver real-time haptic feedback — before conscious awareness.
+
+It acts as a silent co-regulation layer for the nervous system.
 
 ---
 
-## What is Alma
+## What Alma Does
 
-Alma is a screenless wearable concept designed to detect early physiological signs of stress and provide subtle, real-time haptic feedback — before conscious awareness.
+Most systems measure stress after it happens.
 
-It acts as a silent co-pilot for the nervous system, helping users return to regulation without cognitive effort.
+Alma detects **direction of change in real time**  
+and responds through subtle haptic signals.
+
+No alerts.  
+No screens.  
+No cognitive load.
 
 ---
 
 ## The Problem
 
-Current approaches to stress and anxiety management have key limitations:
+Current stress-management tools:
 
-- They rely on conscious awareness, which often comes too late  
-- They require active user input (apps, breathing exercises, screens)  
-- They do not operate in real time during physiological escalation  
-- They are not adapted for children or non-verbal users  
+- Depend on conscious awareness (often too late)
+- Require active interaction (apps, breathing exercises)
+- Do not operate during early physiological escalation
+- Are not suited for children or non-verbal users
 
-Stress is first a **physiological process**, not a cognitive one.
+Stress begins as a **physiological process**, not a cognitive one.
 
 ---
 
 ## The Approach
 
-Alma works by detecting deviations in the body's internal rhythms and responding through non-intrusive haptic signals.
-
-Instead of tracking or notifying, Alma **intervenes subtly and rarely**, only when necessary.
+Alma detects deviations in internal physiological patterns  
+and responds with minimal, non-intrusive feedback.
 
 Core principles:
-- No screens  
-- No constant feedback  
-- No behavioral pressure  
-- Minimal, meaningful intervention  
+
+- No screens
+- No constant feedback
+- No behavioral pressure
+- Minimal, meaningful intervention
 
 ---
 
 ## System Architecture
-
-Alma is built as a multi-sensor, edge-based system:
 
 **Inputs**
 - Heart rate / HRV (PPG)
 - Electrodermal activity (EDA)
 - Motion & respiration proxy (IMU)
 
-**Processing layers**
-- Signal preprocessing  
-- Multi-sensor validation (false positive reduction)  
-- Multi-window baseline comparison  
-- State detection (FSM-based logic)  
-Each layer is validated independently.
-The system responds only when all layers agree —
-reducing false positives before they reach the user.
+**Processing**
+- Signal preprocessing
+- Multi-sensor validation (false-positive reduction)
+- Multi-window baseline comparison
+- FSM-based state detection
 
 **Output**
-- Haptic feedback patterns (closed-loop response)
+- Real-time haptic feedback patterns
+
+The system responds only when signals align across layers.
 
 ---
 
 ## What Makes Alma Different
 
-- **Closed-loop system**: detects → interprets → responds in real time  
-- **No screen dependency**: interaction happens through the body  
-- **False-positive aware architecture**: multi-sensor validation instead of single-threshold triggers  
-- **Designed for early detection**, not post-event tracking  
-- **Works for children and non-verbal users**, not just quantified-self adults  
+- Closed-loop system: detect → interpret → respond
+- No screen dependency — interaction happens through the body
+- False-positive aware architecture (multi-sensor validation)
+- Designed for early intervention, not post-event tracking
+- Built for children and non-verbal users
 
 ---
 
 ## Current Status
 
-The signal processing core is implemented and running:
+- Signal processing pipeline — ✅ implemented  
+- Cadence detection (PLV-based) — ✅ implemented  
+- Pattern memory (Deja-vu) — ✅ implemented  
+- PSI (Physiological State Index) — ✅ implemented  
+- Logic Layer (FSM) — ✅ implemented  
+- ESP32 + haptic prototype — ✅ running  
 
-- Signal preprocessing pipeline      ✅
-- PLV-based cadence detection         ✅
-- Pattern memory (Deja-vu module)     ✅
-- PSI — Physiological State Index     ✅
-- Logic Layer FSM                     ✅
-- ESP32 + haptic prototype            ✅
+**Next step:** real sensor integration and calibration
 
-Next step: real sensor integration
-and first functional validation prototype.
+---
 
 ## Roadmap
 
- ## Roadmap
-
 | Phase | Milestone | Status |
-|---|---|---|
-| v0.1 | Signal processing core + Logic FSM | ✅ Complete |
-| v0.2 | Real sensor integration + calibration | 🔄 In progress |
+|------|----------|--------|
+| v0.1 | Signal processing core + FSM | ✅ Complete |
+| v0.2 | Sensor integration + calibration | 🔄 In progress |
 | v0.3 | Functional wearable prototype | ⏳ Planned |
-| v1.0 | Pilot testing + haptic refinement | ⏳ Planned |
+| v1.0 | Pilot testing + refinement | ⏳ Planned |
 
 ---
 
@@ -105,23 +104,28 @@ and first functional validation prototype.
 
 Alma explores a different interaction paradigm:
 
-**technology that listens to the body — and responds without noise.**
+**technology that listens to the body — and responds without noise**
+
+---
+
+## Founder
+
+Raluca-Adelina Luca  
+Founder & System Architect
+
+---
+
+## Technical Repository
+
+Core signal processing engine:  
+https://github.com/alma-systems/alma-cadence-dejavu
 
 ---
 
 ## Contact
 
-Raluca-Adelina Luca  
-Founder, Alma  
-Open to collaboration, research partnerships,
-and hardware development conversations.
+Open to collaboration, research partnerships, and hardware development discussions.
+
 ---
 
-## Technical Repository
-
-The signal processing engine is open and documented:
-[alma-systems/alma-cadence-dejavu](link)
-
-Includes PSI model, Logic Layer FSM,
-and full implementation notes.
-
+© Alma Systems — 2026
