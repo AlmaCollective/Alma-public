@@ -1,10 +1,10 @@
 ALMA
 
-Physiological Intelligence for Human Awareness
+Training Physiological Awareness Through Intelligent Feedback
 
-Alma explores whether meaningful physiological transitions can be recognized before they become consciously visible.
+Alma explores whether meaningful physiological transitions can be recognized before they become consciously noticeable, and whether intelligent feedback can help humans develop physiological self-awareness over time.
 
-Rather than focusing on isolated events, Alma investigates how individualized physiological drift develops over time and whether intelligent feedback can help humans become more aware of these transitions.
+Rather than focusing on isolated events, Alma investigates how individualized physiological drift develops across contexts and whether awareness of these transitions can become a trainable human capability.
 
 The goal is not to replace awareness.
 
@@ -32,16 +32,16 @@ Many physiological changes begin long before they become symptoms, emotions, beh
 
 Current systems typically:
 
-- monitor what already happened
-- depend on conscious awareness
-- generate alerts and notifications
-- focus on retrospective interpretation
+- Monitor what already happened
+- Depend on conscious awareness
+- Generate alerts and notifications
+- Focus on retrospective interpretation
 
 By the time a change becomes obvious, the transition is often already underway.
 
 The challenge is not measurement.
 
-The challenge is recognizing meaningful change while reducing false positives.
+The challenge is recognizing meaningful physiological change while reducing false positives.
 
 ---
 
@@ -51,9 +51,13 @@ Awareness is trainable.
 
 If physiological transitions can be detected and translated into meaningful feedback, humans may gradually learn to recognize these changes themselves.
 
-Success is not dependence on the device.
+Success is not dependence on technology.
 
 Success is capability transfer.
+
+The ultimate goal is not for the user to rely on Alma forever.
+
+The goal is for the user to become progressively better at recognizing physiological state changes independently.
 
 ---
 
@@ -61,12 +65,12 @@ What Alma Is
 
 Alma is a physiological intelligence system exploring:
 
-- individualized physiological baselines
-- physiological drift detection
-- confidence-based interpretation
-- false-positive reduction
-- haptic communication
-- human physiological awareness training
+- Individualized physiological baselines
+- Physiological drift detection
+- Confidence-based interpretation
+- False-positive reduction
+- Haptic communication
+- Physiological awareness training
 
 The system is designed around a simple principle:
 
@@ -92,7 +96,7 @@ False Positive Reduction
 
 Incorrect feedback reduces trust.
 
-Signal validation and contextual interpretation are central architectural priorities.
+Signal validation, contextual interpretation, and confidence scoring are central architectural priorities.
 
 Minimal Cognitive Load
 
@@ -104,6 +108,24 @@ No behavioral pressure.
 
 Feedback should support awareness, not compete for attention.
 
+Capability Transfer
+
+Technology should help develop awareness, not replace it.
+
+The long-term objective is increasing human capability rather than increasing dependence on technology.
+
+---
+
+Why Now
+
+Three conditions make this exploration possible today:
+
+- Wearables provide continuous physiological sensing at scale.
+- Edge computing enables real-time interpretation without cloud dependency.
+- AI-augmented environments are increasing cognitive load faster than humans can naturally adapt.
+
+Alma sits at the intersection of these trends.
+
 ---
 
 Current Direction
@@ -114,15 +136,17 @@ Software-First Alma
 
 Using existing wearable ecosystems to validate:
 
-- physiological awareness training
-- personalized baselines
-- transition detection
-- confidence scoring
-- false-positive reduction
+- Physiological awareness training
+- Personalized baselines
+- Transition detection
+- Confidence scoring
+- False-positive reduction
+
+This approach enables rapid iteration, lower capital requirements, and earlier validation of the underlying hypothesis.
 
 Hardware-First Alma
 
-Exploring dedicated sensing architectures that may eventually provide higher fidelity physiological information and tighter control over signal quality.
+Exploring dedicated sensing architectures that may eventually provide higher-fidelity physiological information and tighter control over signal quality.
 
 Software helps identify what matters.
 
@@ -150,6 +174,10 @@ Technology should help develop it.
 
 Alma explores a future where physiological awareness becomes a trainable human skill and where intelligent systems support human regulation without increasing noise, distraction, or dependence.
 
+The long-term vision is not a wearable.
+
+The long-term vision is a new relationship between humans and their own physiology.
+
 ---
 
 Founder
@@ -158,4 +186,4 @@ Raluca-Adelina Luca
 
 Founder & Systems Architect
 
-"Where feeling becomes measurable, and measurement remains alive."
+Where feeling becomes measurable, and measurement remains alive.
