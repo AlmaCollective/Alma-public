@@ -1,131 +1,161 @@
-# Alma — Physiological Co-Regulation System
+ALMA
 
-Alma is a screenless wearable system designed to detect early physiological signs of stress and deliver real-time haptic feedback — before conscious awareness.
+Physiological Intelligence for Human Awareness
 
-It acts as a silent co-regulation layer for the nervous system.
+Alma explores whether meaningful physiological transitions can be recognized before they become consciously visible.
 
----
+Rather than focusing on isolated events, Alma investigates how individualized physiological drift develops over time and whether intelligent feedback can help humans become more aware of these transitions.
 
-## What Alma Does
+The goal is not to replace awareness.
 
-Most systems measure stress after it happens.
-
-Alma detects **direction of change in real time**  
-and responds through subtle haptic signals.
-
-No alerts.  
-No screens.  
-No cognitive load.
+The goal is to help develop it.
 
 ---
 
-## The Problem
+The Question
 
-Current stress-management tools:
+Most technologies measure the body.
 
-- Depend on conscious awareness (often too late)
-- Require active interaction (apps, breathing exercises)
-- Do not operate during early physiological escalation
-- Are not suited for children or non-verbal users
+Some technologies interpret the body.
 
-Stress begins as a **physiological process**, not a cognitive one.
+Few technologies help humans learn to recognize their own physiological state.
 
----
+Alma begins with a simple question:
 
-## The Approach
-
-Alma detects deviations in internal physiological patterns  
-and responds with minimal, non-intrusive feedback.
-
-Core principles:
-
-- No screens
-- No constant feedback
-- No behavioral pressure
-- Minimal, meaningful intervention
+Can physiological awareness become a trainable human capability?
 
 ---
 
-## System Architecture
+The Problem
 
-**Inputs**
-- Heart rate / HRV (PPG)
-- Electrodermal activity (EDA)
-- Motion & respiration proxy (IMU)
+Many physiological changes begin long before they become symptoms, emotions, behaviors, or performance degradation.
 
-**Processing**
-- Signal preprocessing
-- Multi-sensor validation (false-positive reduction)
-- Multi-window baseline comparison
-- FSM-based state detection
+Current systems typically:
 
-**Output**
-- Real-time haptic feedback patterns
+- monitor what already happened
+- depend on conscious awareness
+- generate alerts and notifications
+- focus on retrospective interpretation
 
-The system responds only when signals align across layers.
+By the time a change becomes obvious, the transition is often already underway.
 
----
+The challenge is not measurement.
 
-## What Makes Alma Different
-
-- Closed-loop system: detect → interpret → respond
-- No screen dependency — interaction happens through the body
-- False-positive aware architecture (multi-sensor validation)
-- Designed for early intervention, not post-event tracking
-- Built for children and non-verbal users
+The challenge is recognizing meaningful change while reducing false positives.
 
 ---
 
-## Current Status
+The Alma Hypothesis
 
-- Signal processing pipeline — ✅ implemented  
-- Cadence detection (PLV-based) — ✅ implemented  
-- Pattern memory (Deja-vu) — ✅ implemented  
-- PSI (Physiological State Index) — ✅ implemented  
-- Logic Layer (FSM) — ✅ implemented  
-- ESP32 + haptic prototype — ✅ running  
+Awareness is trainable.
 
-**Next step:** real sensor integration and calibration
+If physiological transitions can be detected and translated into meaningful feedback, humans may gradually learn to recognize these changes themselves.
 
----
+Success is not dependence on the device.
 
-## Roadmap
-
-| Phase | Milestone | Status |
-|------|----------|--------|
-| v0.1 | Signal processing core + FSM | ✅ Complete |
-| v0.2 | Sensor integration + calibration | 🔄 In progress |
-| v0.3 | Functional wearable prototype | ⏳ Planned |
-| v1.0 | Pilot testing + refinement | ⏳ Planned |
+Success is capability transfer.
 
 ---
 
-## Vision
+What Alma Is
 
-Alma explores a different interaction paradigm:
+Alma is a physiological intelligence system exploring:
 
-**technology that listens to the body — and responds without noise**
+- individualized physiological baselines
+- physiological drift detection
+- confidence-based interpretation
+- false-positive reduction
+- haptic communication
+- human physiological awareness training
 
----
+The system is designed around a simple principle:
 
-## Founder
-
-Raluca-Adelina Luca  
-Founder & System Architect
-
----
-
-## Technical Repository
-
-Core signal processing engine:  
-https://github.com/alma-systems/alma-cadence-dejavu
+«Better silence than wrong intervention.»
 
 ---
 
-## Contact
+Core Principles
 
-Open to collaboration, research partnerships, and hardware development discussions.
+Physiological Awareness Over Monitoring
+
+The objective is not simply to collect data.
+
+The objective is to help humans better understand their own physiological state.
+
+Confidence Before Intervention
+
+Not every signal is meaningful.
+
+Interventions occur only when sufficient confidence exists.
+
+False Positive Reduction
+
+Incorrect feedback reduces trust.
+
+Signal validation and contextual interpretation are central architectural priorities.
+
+Minimal Cognitive Load
+
+No dashboards.
+
+No constant notifications.
+
+No behavioral pressure.
+
+Feedback should support awareness, not compete for attention.
 
 ---
 
-© Alma Systems — 2026
+Current Direction
+
+Alma is currently evolving through two complementary paths.
+
+Software-First Alma
+
+Using existing wearable ecosystems to validate:
+
+- physiological awareness training
+- personalized baselines
+- transition detection
+- confidence scoring
+- false-positive reduction
+
+Hardware-First Alma
+
+Exploring dedicated sensing architectures that may eventually provide higher fidelity physiological information and tighter control over signal quality.
+
+Software helps identify what matters.
+
+Hardware helps measure it better.
+
+---
+
+Areas of Exploration
+
+- Physiological awareness training
+- Human-AI interaction
+- Cognitive load management
+- Physiological regulation
+- Haptic communication
+- Personalized health technologies
+- Adaptive human systems
+
+---
+
+Vision
+
+Technology should not replace awareness.
+
+Technology should help develop it.
+
+Alma explores a future where physiological awareness becomes a trainable human skill and where intelligent systems support human regulation without increasing noise, distraction, or dependence.
+
+---
+
+Founder
+
+Raluca-Adelina Luca
+
+Founder & Systems Architect
+
+"Where feeling becomes measurable, and measurement remains alive."
